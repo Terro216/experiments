@@ -1,0 +1,22 @@
+mixin card
+    .card&attributes(attributes)
+        .card-header
+            h3 Card Header #{attributes.cardId} 
+        .card-body
+            p some text
+            p some text
+            p some text
+
+
+html 
+    head 
+        title
+            | #01
+        link(rel="stylesheet", href="style.scss")
+        script(type="module", src="main.ts")
+    body
+        //day 37 of 100 days css
+        .cards
+            +card(cardId="1")
+            +card(cardId="2")
+            +card(cardId="3")
