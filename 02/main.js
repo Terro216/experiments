@@ -69,9 +69,9 @@ scene.add(pointLight, pointLight2, ambientLight, directionalLight)
 const textureLoader = new THREE.TextureLoader()
 const face1Material = new THREE.MeshLambertMaterial({ map: textureLoader.load(front) })
 const face2Material = new THREE.MeshLambertMaterial({ map: textureLoader.load(back) })
-
+const whiteTexture = new THREE.MeshStandardMaterial()
 let coin = new THREE.Mesh(new THREE.CylinderGeometry(3, 3, 0.5, 80, 80, false), [
-	new THREE.MeshStandardMaterial({ color: '0xffffff' }),
+	whiteTexture,
 	face1Material,
 	face2Material,
 ])
