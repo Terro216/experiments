@@ -4,7 +4,7 @@
 	"description": "",
 	"scripts": {
 		"start": "parcel 02/index.pug",
-		"build": "parcel build 01/index.pug 02/index.pug index.pug --dist-dir docs --public-url experiments/",
+		"build": "parcel build 01/index.pug 02/index.pug index.pug --dist-dir docs --public-url https://terro216.github.io/experiments/",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"author": "ilyamed",
