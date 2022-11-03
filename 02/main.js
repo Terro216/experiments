@@ -78,7 +78,7 @@ let coin = new THREE.Mesh(new THREE.CylinderGeometry(3, 3, 0.5, 80, 80, false), 
 scene.add(coin)
 
 //controls
-controls = new FlyControls(camera, renderer.domElement)
+let controls = new FlyControls(camera, renderer.domElement)
 controls.movementSpeed = 100
 controls.rollSpeed = Math.PI / 2
 controls.autoForward = false
