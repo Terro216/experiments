@@ -1,0 +1,17 @@
+{
+	"name": "experiments",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "parcel 01/index.pug",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "ilyamed",
+	"license": "MIT",
+	"devDependencies": {
+		"@parcel/transformer-pug": "^2.7.0",
+		"@parcel/transformer-sass": "^2.7.0",
+		"parcel": "^2.7.0"
+	}
+}
