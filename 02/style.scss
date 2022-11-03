@@ -1,0 +1,24 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.reset,
+span {
+	font-size: 1.2rem;
+	text-align: center;
+	position: absolute;
+	min-width: 80px;
+	border-radius: 5px;
+	padding: 1%;
+	right: 20px;
+	top: 10px;
+	transition: all 0.2s;
+	cursor: pointer;
+	&:hover {
+		transform: scale(1.1);
+	}
+}
+span {
+	top: 60px;
+}

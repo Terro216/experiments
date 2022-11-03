@@ -4,7 +4,7 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"start": "parcel 01/index.pug",
+		"start": "parcel 02/index.pug",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"author": "ilyamed",
@@ -13,5 +13,8 @@
 		"@parcel/transformer-pug": "^2.7.0",
 		"@parcel/transformer-sass": "^2.7.0",
 		"parcel": "^2.7.0"
+	},
+	"dependencies": {
+		"three": "^0.146.0"
 	}
 }
